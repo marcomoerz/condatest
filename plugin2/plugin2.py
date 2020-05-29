@@ -7,4 +7,4 @@ class Plugin1(object):
     # test
     @hookimpl
     def testhook(self):
-        return "Plugin1"
+        return "Plugin2"
