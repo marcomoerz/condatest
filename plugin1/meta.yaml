@@ -3,10 +3,16 @@ package:
   version: 0.0.1
 
 build:
-  number: 1
+  number: 0
 
 requirements:
+  build:
+    -python
   run:
     - python
+    - pluggy
+test:
+  imports:
+    - plugin1
 about:
   summary: This is a simple meta-package
